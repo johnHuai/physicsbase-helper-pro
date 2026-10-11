@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "physicsbase-helper-pro",
+  "version": "1.0.0",
+  "description": "覆盖物理学习、严谨推导、建模、模拟、实验分析、文献与前沿研究的智能助手；自动匹配 24 种模式并如实报告验证状态。",
+  "author": { "name": "PhysicsBaseHelper-Pro Contributors" },
+  "keywords": ["physics", "education", "research", "simulation", "verification"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "PhysicsBaseHelper-Pro",
+        "shortDescription": "物理学习、推导、模拟与科研",
+        "longDescription": "面向系统物理学习与研究，提供 24 种按需调用的工作模式，涵盖物理直觉、概念辨析、严谨推导、习题、学习路径、知识图谱、数学桥接、推导审查、建模、近似理论、理论比较、思想实验、符号与张量计算、数值模拟、仿真验证、物理可视化、实验设计、数据分析、参数反演、证据评估、论文精读、文献对照、前沿研究和科研写作。根据任务目标自动匹配，明确指定优先；用量纲、守恒、极限、数值收敛与来源核查约束结论。插件为 Skills 包，实际计算、联网和可视化依赖宿主提供的工具；严格区分已运行、已核查与待执行。",
+        "developerName": "PhysicsBaseHelper-Pro Contributors",
+        "category": "Education",
+        "logo": "./assets/icon.svg",
+        "composerIcon": "./assets/icon.svg",
+        "defaultPrompt": [
+          "启用 PhysicsBaseHelper-Pro，介绍全部可用模式及适用场景；我提出物理问题时自动匹配，明确指定模式时优先遵循。",
+          "切换【严谨推导模式】，从基本原理推导我给出的方程，写明假设、关键步骤、物理意义与核查状态。",
+          "切换【数值模拟模式】，为我给出的物理系统建立可复现计算，并检查误差、收敛性及物理约束。"
+        ]
+      }
+    }
+  }
+}

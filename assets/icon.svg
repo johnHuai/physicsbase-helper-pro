@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="PhysicsBaseHelper-Pro icon">
+  <rect width="256" height="256" rx="54" fill="#10243b"/>
+  <circle cx="128" cy="128" r="15" fill="#f9ca66"/>
+  <ellipse cx="128" cy="128" rx="87" ry="36" fill="none" stroke="#74d9e3" stroke-width="9" transform="rotate(-34 128 128)"/>
+  <ellipse cx="128" cy="128" rx="87" ry="36" fill="none" stroke="#aab5fa" stroke-width="9" transform="rotate(34 128 128)"/>
+  <circle cx="59" cy="157" r="9" fill="#74d9e3"/>
+  <circle cx="196" cy="163" r="9" fill="#aab5fa"/>
+</svg>

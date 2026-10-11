@@ -1,0 +1,334 @@
+{
+  "version": "1.0.0",
+  "count": 24,
+  "groups": {
+    "A": "基础物理与理论学习",
+    "B": "系统学习与数学桥接",
+    "C": "理论建模与研究",
+    "D": "科学计算与可视化",
+    "E": "实验与观测研究",
+    "F": "学术研究与前沿探索"
+  },
+  "modes": [
+    {
+      "id": 1,
+      "slug": "physics-intuition",
+      "name": "物理直觉",
+      "english": "Physics Intuition",
+      "group": "A",
+      "category": "基础物理与理论学习",
+      "outcomes": [
+        "物理图像",
+        "类比",
+        "思想实验"
+      ],
+      "skill": "skills/physics-intuition/SKILL.md"
+    },
+    {
+      "id": 2,
+      "slug": "concept-analysis",
+      "name": "概念辨析",
+      "english": "Concept Analysis",
+      "group": "A",
+      "category": "基础物理与理论学习",
+      "outcomes": [
+        "定义",
+        "易混概念",
+        "理论框架"
+      ],
+      "skill": "skills/concept-analysis/SKILL.md"
+    },
+    {
+      "id": 3,
+      "slug": "rigorous-derivation",
+      "name": "严谨推导",
+      "english": "Rigorous Derivation",
+      "group": "A",
+      "category": "基础物理与理论学习",
+      "outcomes": [
+        "方程",
+        "作用量",
+        "守恒律推导"
+      ],
+      "skill": "skills/rigorous-derivation/SKILL.md"
+    },
+    {
+      "id": 4,
+      "slug": "exercise-training",
+      "name": "习题训练",
+      "english": "Exercise Training",
+      "group": "A",
+      "category": "基础物理与理论学习",
+      "outcomes": [
+        "物理习题解答",
+        "提示",
+        "批改"
+      ],
+      "skill": "skills/exercise-training/SKILL.md"
+    },
+    {
+      "id": 5,
+      "slug": "topic-study",
+      "name": "专题学习",
+      "english": "Topic Study",
+      "group": "B",
+      "category": "系统学习与数学桥接",
+      "outcomes": [
+        "系统学习路线",
+        "逐单元授课"
+      ],
+      "skill": "skills/topic-study/SKILL.md"
+    },
+    {
+      "id": 6,
+      "slug": "knowledge-graph",
+      "name": "物理知识图谱",
+      "english": "Physics Knowledge Graph",
+      "group": "B",
+      "category": "系统学习与数学桥接",
+      "outcomes": [
+        "知识树",
+        "理论关系图"
+      ],
+      "skill": "skills/knowledge-graph/SKILL.md"
+    },
+    {
+      "id": 7,
+      "slug": "mathematical-bridge",
+      "name": "数学桥接",
+      "english": "Mathematical Bridge",
+      "group": "B",
+      "category": "系统学习与数学桥接",
+      "outcomes": [
+        "数学先修",
+        "物理理论连接"
+      ],
+      "skill": "skills/mathematical-bridge/SKILL.md"
+    },
+    {
+      "id": 8,
+      "slug": "derivation-audit",
+      "name": "推导审查",
+      "english": "Derivation Audit",
+      "group": "B",
+      "category": "系统学习与数学桥接",
+      "outcomes": [
+        "检查已有推导",
+        "定位错误"
+      ],
+      "skill": "skills/derivation-audit/SKILL.md"
+    },
+    {
+      "id": 9,
+      "slug": "physical-modeling",
+      "name": "物理建模",
+      "english": "Physical Modeling",
+      "group": "C",
+      "category": "理论建模与研究",
+      "outcomes": [
+        "系统建模",
+        "控制方程"
+      ],
+      "skill": "skills/physical-modeling/SKILL.md"
+    },
+    {
+      "id": 10,
+      "slug": "approximation-eft",
+      "name": "近似与有效理论",
+      "english": "Approximation and EFT",
+      "group": "C",
+      "category": "理论建模与研究",
+      "outcomes": [
+        "微扰",
+        "尺度分离",
+        "有效理论"
+      ],
+      "skill": "skills/approximation-eft/SKILL.md"
+    },
+    {
+      "id": 11,
+      "slug": "theory-comparison",
+      "name": "理论对照",
+      "english": "Theory Comparison",
+      "group": "C",
+      "category": "理论建模与研究",
+      "outcomes": [
+        "理论或模型比较"
+      ],
+      "skill": "skills/theory-comparison/SKILL.md"
+    },
+    {
+      "id": 12,
+      "slug": "thought-experiment",
+      "name": "思想实验",
+      "english": "Thought Experiment",
+      "group": "C",
+      "category": "理论建模与研究",
+      "outcomes": [
+        "构造或检验思想实验"
+      ],
+      "skill": "skills/thought-experiment/SKILL.md"
+    },
+    {
+      "id": 13,
+      "slug": "symbolic-tensor",
+      "name": "符号与张量计算",
+      "english": "Symbolic and Tensor Computation",
+      "group": "D",
+      "category": "科学计算与可视化",
+      "outcomes": [
+        "符号代数",
+        "张量",
+        "算符"
+      ],
+      "skill": "skills/symbolic-tensor/SKILL.md"
+    },
+    {
+      "id": 14,
+      "slug": "numerical-simulation",
+      "name": "数值模拟",
+      "english": "Numerical Simulation",
+      "group": "D",
+      "category": "科学计算与可视化",
+      "outcomes": [
+        "ODE",
+        "PDE",
+        "Monte Carlo",
+        "量子动力学"
+      ],
+      "skill": "skills/numerical-simulation/SKILL.md"
+    },
+    {
+      "id": 15,
+      "slug": "simulation-verification",
+      "name": "仿真验证",
+      "english": "Simulation Verification",
+      "group": "D",
+      "category": "科学计算与可视化",
+      "outcomes": [
+        "数值结果审计",
+        "收敛和复现"
+      ],
+      "skill": "skills/simulation-verification/SKILL.md"
+    },
+    {
+      "id": 16,
+      "slug": "physics-visualization",
+      "name": "物理可视化",
+      "english": "Physics Visualization",
+      "group": "D",
+      "category": "科学计算与可视化",
+      "outcomes": [
+        "科学图像",
+        "动画",
+        "交互"
+      ],
+      "skill": "skills/physics-visualization/SKILL.md"
+    },
+    {
+      "id": 17,
+      "slug": "experimental-design",
+      "name": "实验设计",
+      "english": "Experimental Design",
+      "group": "E",
+      "category": "实验与观测研究",
+      "outcomes": [
+        "教学或真实实验方案"
+      ],
+      "skill": "skills/experimental-design/SKILL.md"
+    },
+    {
+      "id": 18,
+      "slug": "experimental-data",
+      "name": "实验数据分析",
+      "english": "Experimental Data Analysis",
+      "group": "E",
+      "category": "实验与观测研究",
+      "outcomes": [
+        "实测数据清洗",
+        "拟合",
+        "误差"
+      ],
+      "skill": "skills/experimental-data/SKILL.md"
+    },
+    {
+      "id": 19,
+      "slug": "inverse-problems",
+      "name": "参数反演",
+      "english": "Inverse Problems",
+      "group": "E",
+      "category": "实验与观测研究",
+      "outcomes": [
+        "由观测估计模型参数"
+      ],
+      "skill": "skills/inverse-problems/SKILL.md"
+    },
+    {
+      "id": 20,
+      "slug": "evidence-evaluation",
+      "name": "科学证据评估",
+      "english": "Scientific Evidence Evaluation",
+      "group": "E",
+      "category": "实验与观测研究",
+      "outcomes": [
+        "证据分层",
+        "可信度审查"
+      ],
+      "skill": "skills/evidence-evaluation/SKILL.md"
+    },
+    {
+      "id": 21,
+      "slug": "paper-reading",
+      "name": "论文精读",
+      "english": "Paper Reading",
+      "group": "F",
+      "category": "学术研究与前沿探索",
+      "outcomes": [
+        "单篇论文逐节分析"
+      ],
+      "skill": "skills/paper-reading/SKILL.md"
+    },
+    {
+      "id": 22,
+      "slug": "literature-comparison",
+      "name": "文献对照",
+      "english": "Literature Comparison",
+      "group": "F",
+      "category": "学术研究与前沿探索",
+      "outcomes": [
+        "多篇论文及版本比较"
+      ],
+      "skill": "skills/literature-comparison/SKILL.md"
+    },
+    {
+      "id": 23,
+      "slug": "frontier-research",
+      "name": "前沿研究",
+      "english": "Frontier Research",
+      "group": "F",
+      "category": "学术研究与前沿探索",
+      "outcomes": [
+        "开放问题",
+        "研究路线",
+        "近期进展"
+      ],
+      "skill": "skills/frontier-research/SKILL.md"
+    },
+    {
+      "id": 24,
+      "slug": "scientific-writing",
+      "name": "科研写作",
+      "english": "Scientific Writing",
+      "group": "F",
+      "category": "学术研究与前沿探索",
+      "outcomes": [
+        "论文",
+        "综述",
+        "计划",
+        "讲义",
+        "审稿回复"
+      ],
+      "skill": "skills/scientific-writing/SKILL.md"
+    }
+  ]
+}
